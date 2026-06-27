@@ -1,0 +1,8 @@
+outputs/
+outputs_*/
+paper/
+__pycache__/
+.pytest_cache/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

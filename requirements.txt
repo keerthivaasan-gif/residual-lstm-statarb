@@ -1,0 +1,21 @@
+# Core scientific stack (works on numpy 2.x / pandas 2-3.x / py3.9-3.12).
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+
+# Real-data path (Step 0, optional). Not needed for the synthetic default.
+yfinance
+
+# Sequence model (Step 5). The panel-LSTM uses keras/tensorflow when present;
+# if TensorFlow is not installed the pipeline transparently falls back to a
+# scikit-learn MLP on the flattened sequence (see residlstm/models/panel_lstm.py),
+# so `run_all.py` still runs end-to-end without it.
+# tensorflow            # uncomment to enable the real keras BiLSTM
+# keras
+
+# Optional real XGBoost backend for the trees baseline (Step 5).
+# Default backend is sklearn HistGradientBoostingRegressor (no extra deps).
+# On macOS real xgboost needs libomp: `brew install libomp && pip install xgboost`.
+# xgboost
