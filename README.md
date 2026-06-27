@@ -1,4 +1,4 @@
-# project3 — Residual-LSTM Statistical Arbitrage
+Residual-LSTM Statistical Arbitrage
 
 A market-neutral, cross-sectional **statistical-arbitrage** research pipeline that
 tests one question honestly:
@@ -46,7 +46,7 @@ Real-data run (survivorship-biased — logged as such):
 python project3/scripts/run_all.py --source yfinance
 ```
 
-## The 8 steps → where they live
+
 
 | Step | What | Module(s) | Script |
 |---|---|---|---|
@@ -63,7 +63,7 @@ python project3/scripts/run_all.py --source yfinance
 Scripts chain through artifacts in `outputs/` (pickled panels), so you can run them
 one at a time or all via `run_all.py`.
 
-## Where this goes beyond the tutorial (and the two traps it fixes)
+
 
 * **[GAP — RMT causality, the prime look-ahead suspect].** The eigenvectors/betas
   used to strip factors are estimated on a **trailing window ending at t−1 only**;
