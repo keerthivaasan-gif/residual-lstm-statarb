@@ -1,11 +1,8 @@
 Residual-LSTM Statistical Arbitrage
 
 A market-neutral, cross-sectional **statistical-arbitrage** research pipeline that
-tests one question honestly:
-
-> Does an LSTM learning a *time-varying, nonlinear* mean-reversion on RMT-cleaned
-> idiosyncratic residuals beat the linear Avellaneda–Lee **s-score** baseline —
-> **net of costs**, out of sample?
+benchmarks  LSTM learning a *time-varying, nonlinear* mean-reversion on RMT-cleaned
+> idiosyncratic residuals vs the linear Avellaneda–Lee **s-score** baseline.
 
 
 
