@@ -13,10 +13,10 @@ cd /Users/keerthivaasan/Desktop/projects
 source project1/.venv/bin/activate         # env with numpy/pandas/sklearn/scipy/matplotlib
 pip install -r project3/requirements.txt   # (pytest for tests; tensorflow optional)
 
-# the no-look-ahead causality gate + purge/embargo + target tests
+
 pytest project3/tests/ -q
 
-# Step 0 -> Step 7 end-to-end on synthetic data
+
 python project3/scripts/run_all.py
 # -> prints the head-to-head table; writes outputs/report.csv + equity_curves.png
 ```
