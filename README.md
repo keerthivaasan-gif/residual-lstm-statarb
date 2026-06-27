@@ -21,7 +21,7 @@ python project3/scripts/run_all.py
 # -> prints the head-to-head table; writes outputs/report.csv + equity_curves.png
 ```
 
-Real-data run (survivorship-biased — logged as such):
+Real-data run :
 ```bash
 python project3/scripts/run_all.py --source yfinance
 ```
