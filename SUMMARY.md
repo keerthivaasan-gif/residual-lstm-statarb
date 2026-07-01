@@ -1,4 +1,4 @@
-# What this project is 
+# Project Idea
 
 This started as a simple question I had while learning quant finance: **can a neural
 network beat the classic textbook mean-reversion strategy?** The textbook approach
@@ -8,7 +8,6 @@ for myself with crypto and equity markets.
 
 So I built a full pipeline from scratch to test it.
 
-## The idea in plain terms
 
 Stat-arb (statistical arbitrage) doesn't bet on the market going up or down. It bets
 on stocks moving *relative to each other*. If two similar stocks usually move
@@ -27,7 +26,7 @@ leftover residuals to three models:
 
 All three trade on the exact same residuals, so it's a fair fight.
 
-## The part I'm actually proud of: not fooling myself
+## Steps
 
 The easiest thing in the world is to build a backtest that looks amazing because it's
 secretly cheating (using future information it wouldn't have had in real life). Most
@@ -41,7 +40,7 @@ of my effort went into *not* doing that:
   each step was doing what it claimed. This actually caught two real bugs I'd have
   never found otherwise.
 
-## What I found
+## Results
 
 **On US large-cap stocks:** honestly, nobody won convincingly. The linear model was
 weak, the LSTM was the only one that made money after trading costs — but just barely,
@@ -58,7 +57,7 @@ that I was sure would help. It made everything worse. It scrubbed out real signa
 along with the noise. I left it in the paper as a negative result because that's more
 honest than quietly deleting it.
 
-## The biggest lesson: gross vs. net
+## Conclusion
 
 The single most important thing I learned is that a good *signal* and a good *strategy*
 are not the same thing. The trees model had the best raw predictions of all three —
