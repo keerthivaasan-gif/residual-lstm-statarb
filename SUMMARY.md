@@ -41,7 +41,7 @@ of my effort went into *not* doing that:
   each step was doing what it claimed. This actually caught two real bugs I'd have
   never found otherwise.
 
-## What I found (and it surprised me)
+## What I found
 
 **On US large-cap stocks:** honestly, nobody won convincingly. The linear model was
 weak, the LSTM was the only one that made money after trading costs — but just barely,
