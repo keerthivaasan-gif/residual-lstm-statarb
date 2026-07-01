@@ -1,4 +1,4 @@
-# What this project is (and what I actually learned building it)
+# What this project is 
 
 This started as a simple question I had while learning quant finance: **can a neural
 network beat the classic textbook mean-reversion strategy?** The textbook approach
