@@ -33,7 +33,7 @@ secretly cheating (using future information it wouldn't have had in real life). 
 of my effort went into *not* doing that:
 
 - I wrote a test that literally checks the model's residual for a given day is
-  identical whether or not future data exists — proving no future leaks in.
+  identical whether or not future data exists proving no future leaks in.
 - I used **purged, embargoed walk-forward validation**, which puts gaps between the
   training and testing periods so overlapping data can't leak either.
 - I built a fake "synthetic" market where I *know* the true answer, so I could check
@@ -47,7 +47,7 @@ weak, the LSTM was the only one that made money after trading costs but just bar
 and it fell apart if I assumed costs were even a bit higher. Large-cap US stocks are
 just really efficient; there's not much free money lying around.
 
-**On crypto:** the story flipped. The linear textbook model *failed completely* — it
+**On crypto:** the story flipped. The linear textbook model *failed completely* it
 actually lost money before costs. The nonlinear models were the only ones that found
 anything. This lines up with the idea that fancier models help most in messier, less
 efficient markets — not on the most heavily-traded stocks in the world.
