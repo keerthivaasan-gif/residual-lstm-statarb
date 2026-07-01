@@ -2,8 +2,8 @@
 
 This started as a simple question I had while learning quant finance: **can a neural
 network beat the classic textbook mean-reversion strategy?** The textbook approach
-(Avellaneda-Lee) is linear and has been around forever. LSTMs are the fancy modern
-tool everyone talks about. A few papers claim the LSTM wins. I wanted to check that
+(Avellaneda-Lee) is linear and has been around forever but LSTMs are the fancy modern
+tool everyone talks about. A few papers claim the LSTM has an strong edge as an alpha. I wanted to check that
 for myself instead of taking it on faith.
 
 So I built a full pipeline from scratch to test it honestly.
