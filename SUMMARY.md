@@ -65,9 +65,9 @@ but it traded so often that trading fees turned a winning signal into a losing
 strategy. The LSTM had weaker predictions but traded less, so it actually kept its
 edge. **How often you trade can matter more than how right you are.**
 
-## What I know is still missing
+## Future Directions
 
-I'm not going to pretend this is production-ready:
+
 
 - My data is free and only includes companies still alive today (survivorship bias),
   so the real numbers are probably a bit optimistic.
@@ -76,10 +76,3 @@ I'm not going to pretend this is production-ready:
 - The datasets are small by real industry standards, and I'd want to run more seeds
   to be sure the rankings are stable.
 
-## TL;DR
-
-I built an honest head-to-head of a classic quant strategy vs. machine learning,
-went out of my way to avoid the usual backtest traps, and found that the ML edge
-shows up in messy markets (crypto) but mostly not in efficient ones (US stocks) —
-and that trading costs quietly decide the winner more than the models do. I learned
-more from the negative results than I expected to.
