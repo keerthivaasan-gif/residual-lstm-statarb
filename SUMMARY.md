@@ -13,7 +13,7 @@ Stat-arb (statistical arbitrage) doesn't bet on the market going up or down. It 
 on stocks moving *relative to each other*. If two similar stocks usually move
 together and one suddenly lags, you buy the laggard and short the leader, betting the
 gap closes. To do this you first have to strip out the "everybody moved together"
-part (the market and sector effects) and look at what's left over for each stock —
+part (the market and sector effects) and look at what's left over for each stock which is 
 the **residual**. That leftover is what mean-reverts, and that's what we trade.
 
 I cleaned out the common factors using Random Matrix Theory (a neat trick that tells
@@ -43,7 +43,7 @@ of my effort went into *not* doing that:
 ## Results
 
 **On US large-cap stocks:** honestly, nobody won convincingly. The linear model was
-weak, the LSTM was the only one that made money after trading costs — but just barely,
+weak, the LSTM was the only one that made money after trading costs but just barely,
 and it fell apart if I assumed costs were even a bit higher. Large-cap US stocks are
 just really efficient; there's not much free money lying around.
 
@@ -60,7 +60,7 @@ honest than quietly deleting it.
 ## Conclusion
 
 The single most important thing I learned is that a good *signal* and a good *strategy*
-are not the same thing. The trees model had the best raw predictions of all three —
+are not the same thing. The trees model had the best raw predictions of all three
 but it traded so often that trading fees turned a winning signal into a losing
 strategy. The LSTM had weaker predictions but traded less, so it actually kept its
 edge. **How often you trade can matter more than how right you are.**
