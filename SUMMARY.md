@@ -4,9 +4,9 @@ This started as a simple question I had while learning quant finance: **can a ne
 network beat the classic textbook mean-reversion strategy?** The textbook approach
 (Avellaneda-Lee) is linear and has been around forever but LSTMs are the fancy modern
 tool everyone talks about. A few papers claim the LSTM has an strong edge as an alpha. I wanted to check that
-for myself instead of taking it on faith.
+for myself with crypto and equity markets.
 
-So I built a full pipeline from scratch to test it honestly.
+So I built a full pipeline from scratch to test it.
 
 ## The idea in plain terms
 
