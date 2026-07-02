@@ -1,15 +1,4 @@
-"""Test the models on a DIFFERENT dataset: daily crypto.
 
-    python scripts/run_crypto.py
-
-Crypto differs from equities in ways the config must respect:
-  * 7-day trading week  -> annualize Sharpe/turnover by sqrt(365), not 252;
-  * thin, BTC-dominated cross-section -> fewer RMT factors (top_k=2) and no
-    aggressive characteristic cleaning (it would over-strip a ~25-name universe);
-  * strong, fast mean reversion -> a good substrate for the residual strategy.
-
-Writes to a separate `outputs_crypto/` folder so it never clobbers the equity run.
-"""
 from __future__ import annotations
 
 import sys
