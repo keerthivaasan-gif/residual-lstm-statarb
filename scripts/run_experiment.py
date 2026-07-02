@@ -1,10 +1,4 @@
-"""Full experiment: s-score + trees + supervised panel-LSTM.
 
-    python scripts/run_experiment.py [--source synthetic|yfinance]
-
-Runs Step 0 -> 7 with proportional weighting per config (conditional factor
-cleaning is off by default; see config.py).
-"""
 from __future__ import annotations
 
 import argparse
