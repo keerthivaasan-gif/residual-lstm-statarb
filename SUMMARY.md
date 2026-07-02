@@ -16,8 +16,8 @@ gap closes. To do this you first strip out the "everybody moved together" part (
 market and sector effects) and look at what's left over for each stock, which is
 the **residual**. That leftover is what mean-reverts, and that's what we trade.
 
-I cleaned out the common factors using Random Matrix Theory (a neat trick that tells
-you which correlations are real signal and which are just noise), then fed the
+I cleaned out the common factors using Random Matrix Theory which is a neat trick that tells
+you which correlations are real signal and which are just noise, then fed the
 leftover residuals to three models:
 
 1. **s-score**: the classic linear textbook model.
