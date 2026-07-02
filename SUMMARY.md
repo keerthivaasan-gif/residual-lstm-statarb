@@ -29,7 +29,7 @@ All three trade on the exact same residuals, so it's a fair fight.
 ## Steps
 
 The easiest thing in the world is to build a backtest that looks amazing because it's
-secretly cheating (using future information it wouldn't have had in real life). Most
+secretly cheating by using future information it wouldn't have had in real life. Most
 of my effort went into *not* doing that:
 
 - I wrote a test that checks a given day's residual is identical whether or not future
@@ -52,10 +52,6 @@ actually lost money before costs. The nonlinear models were the only ones that f
 anything. This lines up with the idea that fancier models help most in messier, less
 efficient markets, not on the most heavily-traded stocks in the world.
 
-**A mistake I'm keeping in the writeup on purpose:** I tried an extra "cleaning" step
-that I was sure would help. It made everything worse. It scrubbed out real signal
-along with the noise. I left it in the paper as a negative result because that's more
-honest than quietly deleting it.
 
 ## Conclusion
 
